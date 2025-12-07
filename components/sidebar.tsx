@@ -36,10 +36,11 @@ export default function Sidebar({ isOpen, setIsOpen }: SidebarProps) {
     >
       <div className="p-4 flex items-center justify-between border-b border-primary-light">
         {isOpen && (
-          <div className="flex items-center gap-2">
+          
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center font-bold">F</div>
             <span className="font-bold text-lg">Flowtix</span>
-          </div>
+          </Link>
         )}
         <button onClick={() => setIsOpen(!isOpen)} className="p-1 hover:bg-primary-light rounded transition">
           {isOpen ? <ChevronLeft size={20} /> : <ChevronRight size={20} />}

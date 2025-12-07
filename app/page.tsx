@@ -8,10 +8,10 @@ export default function LandingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const teamMembers = [
-    { name: "Rina Putri", role: "Ketua Umum", image: "/placeholder-user.jpg" },
-    { name: "Budi Santoso", role: "Wakil Ketua", image: "/placeholder-user.jpg" },
-    { name: "Siti Aminah", role: "Sekretaris", image: "/placeholder-user.jpg" },
-    { name: "Ahmad Wijaya", role: "Bendahara", image: "/placeholder-user.jpg" },
+    { name: "Fathin Achmad A", role: "Ketua Umum", image: "/images1.jpeg" },
+    { name: "Haidar Dzaky M.", role: "Wakil Ketua", image: "/images2.jpeg" },
+    { name: "Eka Putra M.", role: "Sekretaris", image: "/images3.jpeg" },
+    { name: "Handi Dwi C.", role: "Bendahara", image: "/images4.jpeg" },
   ]
 
   return (
